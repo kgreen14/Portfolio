@@ -1,0 +1,52 @@
+#myName {
+	margin: 50px auto;
+	text-align: center;
+}
+#navBarTop {
+	text-align: center;
+	border: solid 3px;
+	background-color: black;
+}
+#blackJack {
+	text-decoration: none;
+	color: white;
+}
+#navBarHeader1 {
+
+	text-align: center;
+	margin: 50px auto 20px;
+}
+#aboutMe {
+	margin: 100px auto;
+	width: 500px;
+	text-align: center;
+}
+#socialIcons {
+	height: 25px
+	width: 25px;
+	margin: auto;
+	text-align: center;
+	border-top: 5px solid black;
+}
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 142px; 
+}
+.site-footer {
+  height: 142px;
+
+}
